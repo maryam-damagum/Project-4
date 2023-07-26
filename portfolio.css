@@ -1,0 +1,92 @@
+@import url('Poppins/Poppins-Regular.ttf');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/dirt-566310_1280.jpg);
+    background-size: cover;
+   
+    font-family: 'poppins',sans-serif
+}
+div.nav{
+    border:none;
+    background-color: white;
+
+}
+
+/* div.nav p{
+    display: block;
+   /* padding: 10px; 
+font-size: 25px;
+font-weight: bold;
+} */
+
+div ul{
+    display: flex;
+    gap: 2rem;
+    align-items: right;
+    justify-content: right;
+    padding: 20px;
+    /* padding-right: 50px;  */
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 90px;
+    justify-content: justify;
+    align-items: justify;
+    gap: 8rem;
+}
+
+div#first{
+    text-align: justify;
+}
+#side img{
+    height: 500px;
+    width: 500px;
+    border-radius: 20%;
+}
+
+button{
+    border-radius: 20px;
+    background-color: rgb(3, 104, 20);
+    height: 3rem;
+    width: 10rem;
+    font-size: 18px;
+    text-align: center;
+    float: center;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+h1{
+    text-align: justify;
+    font-size: 50px;
+    padding: 10px;
+}
+
+h2{
+    text-align: justify;
+    padding: 10px;
+}
